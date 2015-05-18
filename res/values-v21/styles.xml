@@ -4,17 +4,17 @@
         <item name="android:textColorPrimary">@color/quantum_black_text</item>
         <item name="android:textColor">@color/quantum_black_secondary_text</item>
         <item name="android:fitsSystemWindows">true</item>
-        <item name="android:colorPrimary">@color/quantum_googgreen500</item>
-        <item name="android:colorPrimaryDark">@color/quantum_black_100</item>
-        <item name="android:colorAccent">@color/quantum_googgreenA200</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
     </style>
     <style name="Theme.PhoneVerification" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:textColorPrimary">@color/quantum_black_text</item>
         <item name="android:textColor">@color/quantum_black_secondary_text</item>
         <item name="android:fitsSystemWindows">true</item>
-        <item name="android:colorPrimary">@color/quantum_googgreen500</item>
-        <item name="android:colorPrimaryDark">@color/quantum_googgreen700</item>
-        <item name="android:colorAccent">@color/quantum_googgreenA200</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
     </style>
     <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@style/AccountsSwitcher">
         <item name="android:textStyle">normal</item>
@@ -125,18 +125,18 @@
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/primary_text_color</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
         <item name="isLightTheme">false</item>
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/primary_text_color</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
     </style>
     <style name="NotificationPrimaryText">
-        <item name="android:textColor">@color/quantum_black_text</item>
+        <item name="android:textColor">@color/primary_text_color</item>
     </style>
     <style name="NotificationSecondaryText">
-        <item name="android:textColor">@color/quantum_black_secondary_text</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
     </style>
     <style name="AccountBalanceStyle">
         <item name="android:background">?android:selectableItemBackgroundBorderless</item>

@@ -683,7 +683,7 @@
 .end method
 
 .method private u()V
-    .locals 9
+    .locals 10 #added one for the v9
 
     .prologue
     const/4 v6, 0x6
@@ -695,6 +695,14 @@
     const/4 v1, 0x1
 
     .line 709
+    invoke-virtual {p0}, Lcyj;->getContext()Landroid/content/Context;
+
+    move-result-object v9
+
+    invoke-virtual {v9}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v9
+
     iget-object v0, p0, Lcyj;->e:Lapo;
 
     if-eqz v0, :cond_4
@@ -733,6 +741,7 @@
     if-eqz v7, :cond_6
 
     :cond_0
+# This is the bit that passes along a -0x1 or white color... for future reference
     move v3, v4
 
     move v5, v2
@@ -870,7 +879,13 @@
     if-eqz v3, :cond_7
 
     .line 721
-    const v3, -0xcccccd
+#    const v3, -0xcccccd
+
+    const v3, 0x7f0a0209
+
+    invoke-virtual {v9, v3}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v3
 
     move v5, v1
 
@@ -879,7 +894,13 @@
 
     .line 724
     :cond_7
-    const/high16 v3, -0x66000000
+#    const/high16 v3, -0x66000000
+
+    const v3, 0x7f0a0260
+
+    invoke-virtual {v9, v3}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v3
 
     move v5, v2
 

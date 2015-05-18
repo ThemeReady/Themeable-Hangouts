@@ -23,6 +23,6 @@
     </ScrollView>
     <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/status_message_button_height">
         <Button android:id="@id/status_message_menu_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_status_message_cancel" style="@style/StatusMessageMenuButtonStyle" />
-        <Button android:textColor="@color/primary" android:id="@id/status_message_menu_update" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_status_message_update" style="@style/StatusMessageMenuButtonStyle" />
+        <Button android:textColor="@color/status_button_text_color" android:id="@id/status_message_menu_update" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_status_message_update" style="@style/StatusMessageMenuButtonStyle" />
     </LinearLayout>
 </LinearLayout>

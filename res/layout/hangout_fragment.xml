@@ -10,7 +10,7 @@
                 <TextView android:layout_gravity="bottom|center|right" android:id="@id/hangout_broadcast_viewer_count" android:background="@color/hangout_common_menu_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" style="@style/Theme.Hangout.Toast" />
             </com.google.android.apps.hangouts.hangout.BroadcastOverlayView>
         </FrameLayout>
-        <com.google.android.apps.hangouts.hangout.DebugOverlayTextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@id/hangout_debug_overlay" android:background="@color/text_shadow_color_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.apps.hangouts.hangout.DebugOverlayTextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/hangout_debug_overlay" android:background="@color/text_shadow_color_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </LinearLayout>
     <com.google.android.apps.hangouts.hangout.ToastView android:id="@id/toast_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">

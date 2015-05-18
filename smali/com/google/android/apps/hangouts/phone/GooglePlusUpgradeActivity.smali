@@ -305,6 +305,10 @@
 
     .prologue
     .line 38
+    const v0, 0x7f0d01a0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/apps/hangouts/phone/AccountSignInActivity;->setTheme(I)V
+
     invoke-super {p0, p1}, Laf;->onCreate(Landroid/os/Bundle;)V
 
     .line 41

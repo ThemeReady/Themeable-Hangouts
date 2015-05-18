@@ -741,12 +741,20 @@
 .end method
 
 .method protected a(Z)V
-    .locals 4
+    .locals 5 ## changed from 4 to 5 so v4 could be a constant resource object
 
     .prologue
     const/4 v2, 0x0
 
     .line 148
+    invoke-virtual {p0}, Lcyc;->getContext()Landroid/content/Context;
+ 
+    move-result-object v4
+ 
+    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+ 
+    move-result-object v4
+ 
     sget v0, Lg;->ap:I
 
     invoke-virtual {p0, v0}, Lcyc;->findViewById(I)Landroid/view/View;
@@ -797,8 +805,14 @@
 
     if-eqz v1, :cond_3
 
-    const/high16 v1, -0x34000000    # -3.3554432E7f
+#    const/high16 v1, -0x34000000    # -3.3554432E7f or cc000000
 
+    const v1, 0x7f0a0246
+ 
+    invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
+ 
+    move-result v1
+ 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
@@ -810,6 +824,16 @@
     const/4 v2, -0x1
 
     :cond_1
+# Looks to alternate between trans (v2 0x0) and white (v2 -0x1) based on e:Z...
+# so I stuck this here so it will color regardless of what e:Z says...
+# BUT you may want to move this ABOVE the :cond_1 line to only make it color
+# based on a resource id color when the "make it white" condition is true
+    const v2, 0x7f0a0250
+ 
+    invoke-virtual {v4, v2}, Landroid/content/res/Resources;->getColor(I)I
+ 
+    move-result v2
+ 
     invoke-virtual {p0, v2}, Lcyc;->setBackgroundColor(I)V
 
     .line 160
@@ -823,8 +847,14 @@
 
     .line 158
     :cond_3
-    const/high16 v1, -0x66000000
-
+#    const/high16 v1, -0x66000000 #this seems to be 9a000000
+ 
+    const v1, 0x7f0a0260
+ 
+    invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
+ 
+    move-result v1
+ 
     goto :goto_1
 .end method
 

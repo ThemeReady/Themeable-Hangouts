@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<LinearLayout android:orientation="vertical" android:background="@color/action_sheet_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:hangouts="http://schemas.android.com/apk/res/com.google.android.apps.hangouts">
     <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">

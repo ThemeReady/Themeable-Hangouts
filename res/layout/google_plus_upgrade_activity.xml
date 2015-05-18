@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:babel="http://schemas.android.com/apk/res/com.google.android.apps.hangouts">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/upgrade_icon" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_promo_video" android:importantForAccessibility="no" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/text_default_color_dark" android:layout_gravity="center_vertical" android:id="@id/upgrade_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/upgrade_to_google_plus_hangout_dialog_text" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/decline" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/decline_upgrade_to_google_plus_photos_button" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/join_google_plus" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upgrade_to_google_plus_button" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

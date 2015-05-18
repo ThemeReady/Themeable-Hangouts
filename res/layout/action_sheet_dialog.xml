@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:hangouts="http://schemas.android.com/apk/res/com.google.android.apps.hangouts">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/action_sheet_image" android:layout_width="fill_parent" android:layout_height="@dimen/action_sheet_header_height" hangouts:shape="square" hangouts:size="xlarge" />
+        <TextView android:textColor="@color/quantum_white_text" android:layout_gravity="bottom" android:id="@id/action_sheet_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ListView android:id="@id/action_sheet_action_list" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.peoplelistv1.ScrollViewCustom android:orientation="vertical" android:id="@id/audience_view_root" android:background="@android:color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/audience_chips_minimum_height" custom:max_height="@dimen/audience_chips_maximum_height" custom:min_height="@dimen/audience_chips_minimum_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/lib/com.google.android.apps.hangouts.peoplelistv1">
+    <com.google.android.apps.hangouts.views.MultiLineLayout android:id="@id/people_audience_view_chip_container" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.hangouts.peoplelistv1.AudienceTextView android:textAppearance="?android:textAppearanceSmall" android:textColorHint="@color/audience_view_text_hint_color" android:background="#00000000" android:paddingLeft="@dimen/audience_chip_pad_horiz" android:paddingTop="@dimen/audience_chip_pad_vert" android:paddingRight="@dimen/audience_chip_pad_horiz" android:paddingBottom="@dimen/audience_chip_pad_vert" android:layout_width="wrap_content" android:layout_height="@dimen/peoplelistv1_avatar_dimension" android:minEms="1" android:singleLine="true" android:inputType="textNoSuggestions" />
+    </com.google.android.apps.hangouts.views.MultiLineLayout>
+</com.google.android.apps.hangouts.peoplelistv1.ScrollViewCustom>

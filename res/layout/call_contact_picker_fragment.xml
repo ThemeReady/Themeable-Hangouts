@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/call_contact_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:background="@color/default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textSize="14.0sp" android:textColorHint="@color/make_phone_call_hint_color" android:id="@id/contact_searchbox" android:background="@color/make_phone_call_background_color" android:paddingLeft="@dimen/m_space" android:paddingTop="@dimen/m_space" android:paddingRight="@dimen/m_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialpad_edit_text_minimum_height" android:hint="@string/make_phone_call_hint_text_contacts" android:singleLine="true" />
+    <EditText android:textSize="14.0sp" android:textColorHint="@color/make_phone_call_hint_color" android:id="@id/contact_searchbox" android:background="@color/default_bg" android:paddingLeft="@dimen/m_space" android:paddingTop="@dimen/m_space" android:paddingRight="@dimen/m_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialpad_edit_text_minimum_height" android:hint="@string/make_phone_call_hint_text_contacts" android:singleLine="true" />
     <View style="@style/horizontalDividerStyle" />
     <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <FrameLayout android:id="@id/recent_calls_list_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />

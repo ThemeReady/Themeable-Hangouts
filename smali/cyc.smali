@@ -807,7 +807,7 @@
 
 #    const/high16 v1, -0x34000000    # -3.3554432E7f or cc000000
 
-    const v1, 0x7f0a0246
+    const v1, 0x7f0a0196 #resource id
  
     invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
  
@@ -828,7 +828,7 @@
 # so I stuck this here so it will color regardless of what e:Z says...
 # BUT you may want to move this ABOVE the :cond_1 line to only make it color
 # based on a resource id color when the "make it white" condition is true
-    const v2, 0x7f0a0250
+    const v2, 0x7f0a01be #resource id
  
     invoke-virtual {v4, v2}, Landroid/content/res/Resources;->getColor(I)I
  
@@ -849,7 +849,7 @@
     :cond_3
 #    const/high16 v1, -0x66000000 #this seems to be 9a000000
  
-    const v1, 0x7f0a0260
+    const v1, 0x7f0a0197 #resource id
  
     invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
  

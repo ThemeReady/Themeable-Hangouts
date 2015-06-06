@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/contact_detail_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<FrameLayout android:background="@color/default_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ListView android:id="@id/contact_detail_list" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/realtimechat_empty_background" android:layout_weight="1.0" android:layout_alignWithParentIfMissing="true" />
 </FrameLayout>

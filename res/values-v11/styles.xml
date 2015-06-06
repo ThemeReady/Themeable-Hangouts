@@ -214,25 +214,21 @@
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
-        <item name="android:actionModeShareDrawable">?actionModeShareDrawable</item>
     </style>
     <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V11.Theme.AppCompat.Light">
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
-        <item name="android:actionModeShareDrawable">?actionModeShareDrawable</item>
     </style>
     <style name="Base.Theme.AppCompat.Dialog" parent="@style/Base.V11.Theme.AppCompat.Dialog">
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
-        <item name="android:actionModeShareDrawable">?actionModeShareDrawable</item>
     </style>
     <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V11.Theme.AppCompat.Light.Dialog">
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
-        <item name="android:actionModeShareDrawable">?actionModeShareDrawable</item>
     </style>
     <style name="Base.V11.Theme.AppCompat" parent="@style/Base.V7.Theme.AppCompat" />
     <style name="Base.V11.Theme.AppCompat.Light" parent="@style/Base.V7.Theme.AppCompat.Light" />
@@ -283,7 +279,7 @@
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
-        <item name="editTextColor">@color/primary_text_color</item>
+        <item name="editTextColor">@color/primary_text_default_material_light</item>
         <item name="editTextBackground">@drawable/abc_edit_text_material</item>
         <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
@@ -306,7 +302,7 @@
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
-        <item name="colorControlNormal">@color/secondary_text_color</item>
+        <item name="colorControlNormal">@color/secondary_text_default_material_light</item>
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_normal_material_light</item>

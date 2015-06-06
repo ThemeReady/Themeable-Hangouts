@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:orientation="vertical" android:background="@color/quantum_lightblueA400" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/promo_buttons" android:background="@color/resend_buttons_background_color" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/promo_buttons" android:background="@color/default_bg" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
         <Button android:textSize="14.0sp" android:textColor="@color/quantum_lightblueA700" android:id="@id/promo_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_seen_promo_ok" style="?android:attr/borderlessButtonStyle" />
     </LinearLayout>
     <RelativeLayout android:paddingLeft="48.0dip" android:paddingTop="48.0dip" android:paddingRight="40.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/promo_buttons">

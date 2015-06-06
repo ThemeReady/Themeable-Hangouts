@@ -881,7 +881,7 @@
     .line 721
 #    const v3, -0xcccccd
 
-    const v3, 0x7f0a0209
+    const v3, 0x7f0a0209 #resource id
 
     invoke-virtual {v9, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -896,7 +896,7 @@
     :cond_7
 #    const/high16 v3, -0x66000000
 
-    const v3, 0x7f0a0260
+    const v3, 0x7f0a0197 #resource id
 
     invoke-virtual {v9, v3}, Landroid/content/res/Resources;->getColor(I)I
 

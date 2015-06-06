@@ -10,7 +10,7 @@
     </FrameLayout>
     <FrameLayout android:id="@id/tab_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:orientation="horizontal" android:id="@id/track" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <View android:layout_gravity="bottom" android:id="@id/selected_tab_rectangle" android:background="@color/selected_tab_background_color" android:layout_width="60.0dip" android:layout_height="6.0dip" />
+        <View android:layout_gravity="bottom" android:id="@id/selected_tab_rectangle" android:background="@color/bg_transport_spinner_item_pressed" android:layout_width="60.0dip" android:layout_height="6.0dip" />
     </FrameLayout>
     <android.support.v4.view.ViewPager android:id="@id/contacts_list_pager" android:layout_width="fill_parent" android:layout_height="220.0dip" />
 </LinearLayout>

@@ -121,7 +121,7 @@
     .line 82
     iget-object v1, p0, Lcom/google/android/apps/hangouts/views/ConversationNameView;->a:Landroid/graphics/Paint;
 
-    const v2, -0x7f0a0246
+    const v2, -0x7f0a0196
 
     invoke-virtual {v0, v4, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
